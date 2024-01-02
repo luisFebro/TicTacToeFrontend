@@ -24,6 +24,7 @@ import com.plcoding.onlinetictactoe.presentation.TicTacToeViewModel
 import com.plcoding.onlinetictactoe.ui.theme.OnlineTicTacToeTheme
 import dagger.hilt.android.AndroidEntryPoint
 
+// ref: https://youtu.be/sKCCwl5lNBk?t=2358s
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
