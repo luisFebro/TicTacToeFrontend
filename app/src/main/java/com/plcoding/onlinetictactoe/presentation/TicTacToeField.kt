@@ -174,7 +174,7 @@ fun TicTacToeFieldPreview() {
     TicTacToeField(
         state = GameState(
             field = arrayOf(
-                arrayOf('X', null, null),
+                arrayOf('X', 'X', null),
                 arrayOf(null, 'O', 'O'),
                 arrayOf(null, 'X', null),
             ),

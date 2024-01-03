@@ -21,6 +21,7 @@ class TicTacToeViewModel @Inject constructor(
         .onStart { _isConnecting.value = true }
         .onEach { _isConnecting.value = false }
         .catch { t -> _showConnectionError.value = t is ConnectException }
+            // exp: https://youtu.be/sKCCwl5lNBk?t=3223s
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), GameState())
 
     private val _isConnecting = MutableStateFlow(false)
